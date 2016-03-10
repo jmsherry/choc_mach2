@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Chocolate Machine</title>
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#main-menu-container" data-offset="300">
+  <header id="main-header" class="bg-faded">
+    <div class="container" id="navbar-container">
+      <nav class="navbar navbar-light navbar-fixed-top">
+
+        <!-- <div id="main-menu-container"> -->
+        <h1 class="navbar-brand">The Chocolate Machine</h1>
+
+        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#dropdown-menu">
+          &#9776;
+        </button>
+
+        <div class="basketWrapper pull-right">
+          <i class="fa fa-shopping-cart fa-2"></i>
+          <div class="basketTotal"><span id="basketTotal">£0.00</span> (<span id="items-total">0 items</span>)</div>
+        </div>
+
+        <div class="collapse-wrapper">
+          <div class="collapse navbar-toggleable-xs" id="dropdown-menu">
+            <ul id="main-menu" class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#intro">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wallet">Wallet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#purchases">Purchases</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="intro">
+      <!-- <div class="container"> -->
+      <div class="jumbotron">
+        <div class="container-fluid">
+          <div class="content">
+            <h1 class="display-3">Welcome to the Chocolate machine!</h1>
+            <p class="lead">From <strong>Panda Productions</strong></p>
+            <hr class="m-y-2">
+            <p>Lets you order chocolates from the comfort of your seat!!</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#shop" role="button">Get Started!!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="shop">
+      <div class="container">
+        <h1>Chocolates</h1>
+        <p>See our wide range of yummy chocolates below!!</p>
+        <ul id="products" class="list-unstyled row">
+          <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/476/5000159470476/IDShot_110x110.jpg" alt="Mars Bar Thumbnail" height="110" width="110">
+         <div class="blurb">
+           <h2>Mars Bar</h2>
+           <p>Chocolate Fondant, topped with caramel, all wrapped in chocolate!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+       <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/228/5000159459228/IDShot_110x110.jpg" alt="Twix Thumbnail">
+         <div class="blurb">
+           <h2>Twix</h2>
+           <p>Butter Biscuit base, topped with caramel, all wrapped in chocolate!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+       <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/710/5900951027710/IDShot_110x110.jpg" alt="Galaxy Caramel Thumbnail" height="110" width="110">
+         <div class="blurb">
+           <h2>Galaxy Caramel</h2>
+           <p>Silky smooth galaxy milk chocolate!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+       <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/347/7613035058347/IDShot_110x110.jpg" alt="Aero bar thumbnail" height="110" width="110">
+         <div class="blurb">
+           <h2>Aero (Mint)</h2>
+           <p>Chocolate-covered mint bubble heaven!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+       <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/179/0000050251179/IDShot_110x110.jpg" alt="Rolos Thumbnail" height="110" width="110">
+         <div class="blurb">
+           <h2>Rolos</h2>
+           <p>Chunks of soft caramel covered in chocolate!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+       <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/216/0000040111216/IDShot_110x110.jpg" alt="Bounty Thumbnail" height="110" width="110">
+         <div class="blurb">
+           <h2>Bounty</h2>
+           <p>Coconut blocks covered in chocolate!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+       <li class="item col-lg-4 col-md-6">
+         <img class="" src="http://img.tesco.com/Groceries/pi/105/0000050201105/IDShot_110x110.jpg" alt="Turkish Delight Thumbnail" height="110" width="110">
+         <div class="blurb">
+           <h2>Turkish Delight</h2>
+           <p>Turkish delight covered in chocolate!</p>
+           <button type="button" class="buy btn btn-primary">Buy</button>
+         </div>
+       </li>
+          <!-- <li><img src="./images/css/ajax-loader.gif" class="spinner" alt="loading..."><span class="sr-only">Loading Chocolates...</span></li> -->
+        </ul>
+      </div>
+    </section>
+    <hr>
+    <section id="wallet">
+      <div class="container">
+        <h1>Wallet</h1>
+        <form id="addFundsForm">
+          <div class="form-group row">
+            <p class="col-sm-2 form-control-label">Money Available:</p>
+            <div class="col-sm-10">
+              <p class="form-control-static">
+                <strong id="fundsAvailable">£0</strong>
+              </p>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputMoney" class="col-sm-2 form-control-label">Additional Funds</label>
+            <div class="col-sm-10">
+              <input type="number" min="0" step="1" class="form-control" id="newFunds" name="newFunds" placeholder="How much will you spend?">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" id="addFunds">Add money!</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <hr>
+    <section id="purchases">
+      <div class="container">
+        <h1>Inventory</h1>
+        <table>
+          <caption class="sr-only">Chocolate Purchases</caption>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th colspan="3" class="total-text">Total:</th>
+              <td id="grand-total">£0.00</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Demo Data</td>
+              <td>1</td>
+              <td>£3.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer bg-faded" id="main-footer">
+    <div class="container">
+      &copy; General Assembly 2015. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.0/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

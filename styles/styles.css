@@ -1,0 +1,120 @@
+body {
+  /*padding-top: 54px;*/
+  position: relative;
+}
+
+section {
+  padding-top:100px;
+  min-height: 500px;
+  overflow-y: scroll;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  height: 40px;
+  background: transparent url(./../images/css/hr.jpeg) center 52% no-repeat scroll;
+  border: 0;
+}
+
+.spinner {
+  margin-left: 30px;
+}
+
+/* HEADER SECTION */
+.collapse-wrapper {
+  clear:both;
+  display: block;
+  width: 100%;
+}
+
+.basketWrapper {
+  font-size: 1.5em;
+}
+
+.basketWrapper .fa {
+  color:#6B3005;
+}
+
+.basketTotal {
+  display: inline-block;
+}
+
+/* INTRO SECTION */
+.jumbotron {
+  background-image: url(http://i.huffpost.com/gen/1414912/images/o-BRITISH-CANDY-BARS-facebook.jpg);
+}
+
+.jumbotron hr {
+  width: auto;
+  margin: 1rem 0;
+  height: 40px;
+  background: none;
+  border-top: .0625rem solid rgba(0,0,0,.1);
+}
+
+@media screen and (max-width: 768px) {
+  .display-3 {
+    font-size: 3.5rem;
+  }
+}
+
+.jumbotron .container-fluid {
+  background-color:#fff;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* CHOCOLATES SECTION */
+/* Carousel */
+
+.item {
+  /*border: 1px solid brown;*/
+    /*border-radius: 5px;*/
+    min-height: 300px;
+}
+
+.item:hover {
+  background-color: #eee;
+}
+
+.item.no-hover:hover {
+  background-color: transparent;
+}
+
+/* WALLET SECTION */
+
+
+/* FOOTER */
+.main-footer {
+  padding: 15px;
+}
+
+/* OVERRIDES */
+
+.navbar {
+  background-color: #fff;
+  border-bottom:2px solid #6B3005;
+}
+
+.navbar .collapse {
+  clear:both;
+}
+
+.navbar-light .navbar-brand {
+  color: #6B3005;
+}
+
+/* Purchases Table */
+table {
+  width: 100%;
+}
+
+tr {
+  border: 1px solid;
+}
+
+.total-text {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 15px;
+}

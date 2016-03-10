@@ -1,0 +1,64 @@
+[{
+  "_id": 0,
+  "name": "Mars Bar",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/476/5000159470476/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Chocolate Fondant, topped with caramel, all wrapped in chocolate!",
+  "cost": 0.6
+}, {
+  "_id": 1,
+  "name": "Twix",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/228/5000159459228/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Butter Biscuit base, topped with caramel, all wrapped in chocolate!",
+  "cost": 0.7
+}, {
+  "_id": 2,
+  "name": "Galaxy Caramel",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/710/5900951027710/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Silky smooth galaxy milk chocolate!",
+  "cost": 0.8
+}, {
+  "_id": 3,
+  "name": "Aero (Mint)",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/347/7613035058347/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Chocolate-covered mint bubble heaven!",
+  "cost": 0.6
+}, {
+  "_id": 4,
+  "name": "Rolos",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/179/0000050251179/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Chunks of soft caramel covered in chocolate!",
+  "cost": 0.6
+}, {
+  "_id": 5,
+  "name": "Bounty",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/216/0000040111216/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Coconut blocks covered in chocolate!",
+  "cost": 0.6
+}, {
+  "_id": 6,
+  "name": "Turkish Delight",
+  "images": {
+    "thumbnail": "http://img.tesco.com/Groceries/pi/105/0000050201105/IDShot_110x110.jpg",
+    "fullsize": ""
+  },
+  "description": "Turkish delight covered in chocolate!",
+  "cost": 0.6
+}]
